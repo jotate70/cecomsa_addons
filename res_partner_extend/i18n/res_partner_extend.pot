@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* res_partner_extend
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20230724\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-27 23:51+0000\n"
+"PO-Revision-Date: 2024-04-27 23:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: res_partner_extend
+#: model:ir.model,name:res_partner_extend.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.actions.act_window,name:res_partner_extend.action_window_customer_classification
+#: model:ir.model,name:res_partner_extend.model_customer_classification
+#: model:ir.ui.menu,name:res_partner_extend.x_customer_classification_menu
+msgid "Customer Classification"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_res_partner__customer_classification_id
+#: model:ir.model.fields,field_description:res_partner_extend.field_res_users__customer_classification_id
+msgid "Custumer Classification"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__description
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_from_view
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_tree_view
+msgid "Description"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: res_partner_extend
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_from_view
+msgid "HSD"
+msgstr ""
+
+#. module: res_partner_extend
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_from_view
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_tree_view
+msgid "Health sector"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__id
+msgid "ID"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__name
+msgid "Name"
+msgstr ""
+
+#. module: res_partner_extend
+#: code:addons/res_partner_extend/models/customer_classification.py:0
+#: model:ir.model.constraint,message:res_partner_extend.constraint_customer_classification_unique_name
+#, python-format
+msgid "The name must be unique. This name already exists."
+msgstr ""
+
+#. module: res_partner_extend
+#: model:ir.model.fields,field_description:res_partner_extend.field_customer_classification__code
+msgid "code"
+msgstr ""
+
+#. module: res_partner_extend
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_from_view
+msgid "form"
+msgstr ""
+
+#. module: res_partner_extend
+#: model_terms:ir.ui.view,arch_db:res_partner_extend.customer_classification_tree_view
+msgid "tree"
+msgstr ""

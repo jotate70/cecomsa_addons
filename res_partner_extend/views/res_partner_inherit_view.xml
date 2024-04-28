@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+      <record id="res_partner_inherit_extend" model="ir.ui.view">
+          <field name="name">res_partner_inherit_extend</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <!--            campos -->
+                <xpath expr="//field[@name='category_id']" position="after">
+                    <field name="customer_classification_id" options="{'no_open': True, 'no_create': True}"/>
+                </xpath>
+            </field>
+      </record>
+  </data>
+</odoo>
